@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<head>
+  <title>Document</title>
+</head>
+<body>
+  <h2>
+    JS String methods
+  </h2>
+</body>
+<script>
+  var str = "AbcDEfgh"
+  document.write(str.toLowerCase());
+  document.write("<br>");
+  document.write(str.toUpperCase());
+  document.write("<br>")
+  document.write(str.startsWith('i'));
+  document.write("<br>")
+  var patt = new RegExp(str);
+  var res = patt.test(str);
+  document.write(res);
+
+</script>
+</html>
